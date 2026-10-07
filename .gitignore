@@ -1,0 +1,24 @@
+# Model artifacts
+*.safetensors
+*.pt
+*.pth
+
+# Generated experiment artifacts
+regression/results/
+regression/logs/
+*.out
+
+# Reproducible intermediate and derived data
+data/synthetic_pbc_data_N300.csv
+data/target_data_for_aft_seed*.csv
+data/beta_coefficients_seed*.csv
+data/generated/
+
+# Python and local system files
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local credentials
+.env
+.env.*
